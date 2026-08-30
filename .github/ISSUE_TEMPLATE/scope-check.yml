@@ -1,0 +1,77 @@
+name: Request a GitHub Issue Fix Sprint fit check
+description: Submit one repository issue for a free, read-only scope check.
+title: "[Fit check] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for considering Mergeframe Studio. This form is for one clearly scoped GitHub issue. Do not include passwords, API keys, private customer data, security vulnerability details, or production access credentials.
+
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+      description: A public repository is preferred for the initial read-only check.
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+
+  - type: input
+    id: issue
+    attributes:
+      label: Issue URL
+      description: Link to the single issue you want assessed.
+      placeholder: https://github.com/owner/repository/issues/123
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Current behavior and reproduction
+      description: Explain what happens now and provide the shortest known reproduction steps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: State the observable result that would count as fixed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_checks
+    attributes:
+      label: Required tests or acceptance checks
+      description: List the commands, CI checks, or user-visible behaviors that must pass.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: implementation_status
+    attributes:
+      label: Assignment and implementation status
+      options:
+        - No assignee and no active implementation pull request
+        - Assigned, but no implementation has started
+        - An implementation pull request already exists
+        - Unknown
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: authority
+    attributes:
+      label: Authorization
+      options:
+        - label: I own this repository or am authorized to commission this work.
+          required: true
+        - label: I have not included secrets, private customer data, or security vulnerability details in this public form.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        The fit check is read-only and does not include a complete diagnosis or patch. If the issue fits the pilot, Mergeframe Studio will reply with a written scope proposal before requesting the USD 100 deposit.
