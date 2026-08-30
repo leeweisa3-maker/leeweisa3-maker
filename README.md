@@ -19,6 +19,10 @@ The USD 199 pilot covers one agreed issue and up to four engineering hours:
 
 The first version is due within two business days after written scope confirmation and a USD 100 deposit. The USD 99 balance is due when the written acceptance checks pass. Third-party maintainer merge decisions are not an acceptance condition unless explicitly agreed.
 
+### Request a free fit check
+
+[Open the scope-check form](https://github.com/leeweisa3-maker/leeweisa3-maker/issues/new/choose) for one public repository issue. Do not include secrets, production credentials, private customer data, or security vulnerability details. The fit check is read-only and does not include a complete diagnosis or patch.
+
 ## Public capability evidence
 
 - Invidious / Crystal: replaced a legacy channel-data path using existing project abstractions and validated the implementation against 172 local tests.
