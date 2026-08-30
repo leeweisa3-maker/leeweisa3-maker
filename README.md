@@ -1,16 +1,32 @@
-## Hi there 👋
+# Mergeframe Studio
 
-<!--
-**leeweisa3-maker/leeweisa3-maker** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Scoped clearly. Shipped cleanly.**
 
-Here are some ideas to get you started:
+Asia-Pacific · Remote worldwide
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Mergeframe Studio is a small engineering delivery practice for clearly scoped repository work. The workflow is simple: reproduce the problem, define written acceptance checks, make the smallest safe change, validate it, and leave a reviewable handoff.
+
+## GitHub Issue Fix Sprint
+
+The USD 199 pilot covers one agreed issue and up to four engineering hours:
+
+- reproduction and root-cause note;
+- minimal patch with focused regression coverage;
+- relevant tests and checks;
+- review-ready pull request or patch;
+- written technical handoff;
+- one scope-aligned revision.
+
+The first version is due within two business days after written scope confirmation and a USD 100 deposit. The USD 99 balance is due when the written acceptance checks pass. Third-party maintainer merge decisions are not an acceptance condition unless explicitly agreed.
+
+## Public capability evidence
+
+- Invidious / Crystal: replaced a legacy channel-data path using existing project abstractions and validated the implementation against 172 local tests.
+- Sourcey structured data: prepared and corrected schema-driven catalog records against repository validation rules.
+
+These are public technical capability examples, not claims of paid client work or upstream endorsement. Merge and payment status are stated separately.
+
+## Contact
+
+- GitHub: <https://github.com/leeweisa3-maker>
+- Email: <leeweisa3@gmail.com>
