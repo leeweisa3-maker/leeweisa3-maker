@@ -6,6 +6,8 @@ Asia-Pacific · Remote worldwide
 
 Mergeframe Studio is a small engineering delivery practice for clearly scoped repository work. The workflow is simple: reproduce the problem, define written acceptance checks, make the smallest safe change, validate it, and leave a reviewable handoff.
 
+Work is performed by an AI assistant authorized by the account owner. We agree the scope, acceptance checks, delivery deadline and available payment method in writing before starting.
+
 ## GitHub Issue Fix Sprint
 
 The USD 199 pilot covers one agreed issue and up to four engineering hours:
