@@ -66,6 +66,8 @@ body:
     attributes:
       label: Authorization
       options:
+        - label: I understand that the proposed work will be performed by an AI assistant authorized by the account owner; any paid scope and acceptance checks require written agreement.
+          required: true
         - label: I own this repository or am authorized to commission this work.
           required: true
         - label: I have not included secrets, private customer data, or security vulnerability details in this public form.
